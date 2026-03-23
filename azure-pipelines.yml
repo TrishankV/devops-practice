@@ -10,7 +10,7 @@ resources:
 
 variables:
   tag: '$(Build.BuildId)'
-  acrservicecon: 'ACR-Service-Connection'
+  acrservicecon: 'tf-app'
   reponame: 'containerrepo'
   dockerpath: '$(Build.SourcesDirectory)/Dockerfile'
   buildcontext: '$(Build.SourcesDirectory)'
